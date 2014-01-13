@@ -6,6 +6,8 @@
 
     require.config({
         baseUrl: "../bower_components",
+        waitSeconds: 15,
+        urlArgs : "bust="+new Date().getTime(),
         paths: {
             '$': app.dir + '/jquery/jquery',
             'bootstrap': app.dir + '/bootstrap/dist/js/bootstrap',

@@ -9,9 +9,14 @@ class BaseController extends Controller {
 	 */
 	protected function setupLayout()
 	{
+        $cats = Category::all();
+
 		if ( ! is_null($this->layout))
 		{
+            View::share('cats', $cats);
+
 			$this->layout = View::make($this->layout);
+                //->nest('category', 'partials.category', array($cats));
 		}
 	}
 

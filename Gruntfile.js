@@ -13,6 +13,7 @@ module.exports = function(grunt) {
                 }
             }
         },
+        /*
         less: {
             development: {
                 options: {
@@ -21,6 +22,13 @@ module.exports = function(grunt) {
                 files: {
                     "./public/assets/css/frontend.css": "./bower_components/mazweb/css/frontend.less", //compiling frontend.less into frontend.css
                     "./public/assets/css/backend.css": "./bower_components/mazweb/css/backend.less" //compiling backend.less into backend.css
+                }
+            }
+        }, */
+        compass: {
+            dist: {
+                options: {
+                    config: './config.rb'
                 }
             }
         },
@@ -32,22 +40,6 @@ module.exports = function(grunt) {
                 src: './public/assets/main.js',
                 dest: './public/assets/js/main.js'
             }
-            /*,
-            js_frontend: {
-                src: [
-                    './app/assets/js/frontend.js',
-                    './app/assets/js/test.js'
-                ],
-                dest: './public/assets/js/frontend.js'
-            },
-            js_backend: {
-                src: [
-                    './bower_components/jquery/jquery.js',
-                    './bower_components/bootstrap/dist/js/bootstrap.js',
-                    './app/assets/js/backend.js'
-                ],
-                dest: './public/assets/js/backend.js'
-            } */
         },
         uglify: {
             options: {
@@ -58,17 +50,6 @@ module.exports = function(grunt) {
                     './public/assets/js/main.js': './public/assets/js/main.js'
                 }
             }
-            /*,
-            frontend: {
-                files: {
-                    './public/assets/js/frontend.js': './public/assets/js/frontend.js'
-                }
-            },
-            backend: {
-                files: {
-                    './public/assets/js/backend.js': './public/assets/js/backend.js'
-                }
-            } */
         },
         phpunit: {
             classes: {
@@ -86,34 +67,18 @@ module.exports = function(grunt) {
                     './public/assets/main.js'
                 ],
                 tasks: ['concat:js_build','uglify:buildfile']     //tasks to run
-            } /*,
-            js_frontend: {
-                files: [
-                    //watched files
-                    './app/assets/js/frontend.js',
-                    './app/assets/js/test.js'
-                ],
-                tasks: ['concat:js_frontend','uglify:frontend'],     //tasks to run
-                options: {
-                    livereload: true                        //reloads the browser
-                }
             },
-            js_backend: {
-                files: [
-                    //watched files
-                    './app/assets/js/backend.js'
-                ],
-                tasks: ['concat:js_backend','uglify:backend'],     //tasks to run
-                options: {
-                    livereload: true                        //reloads the browser
-                }
-            } */,
+            /*
             less: {
                 files: ['./app/assets/css/*.less'],  //watched files
                 tasks: ['less'],                          //tasks to run
                 options: {
                     livereload: true                        //reloads the browser
                 }
+            }, */
+            compass: {
+                files: ['./bower_components/mazweb/css/*.scss'],
+                tasks: ['compass']
             },
             tests: {
                 files: ['app/controllers/*.php','app/models/*.php'],  //the task will run only when you save files in this location
@@ -125,8 +90,9 @@ module.exports = function(grunt) {
     // plugin loading
     grunt.loadNpmTasks('grunt-contrib-requirejs');
     grunt.loadNpmTasks('grunt-contrib-concat');
+    grunt.loadNpmTasks('grunt-contrib-compass');
     grunt.loadNpmTasks('grunt-contrib-watch');
-    grunt.loadNpmTasks('grunt-contrib-less');
+    // grunt.loadNpmTasks('grunt-contrib-less');
     grunt.loadNpmTasks('grunt-contrib-uglify');
     grunt.loadNpmTasks('grunt-phpunit');
 
