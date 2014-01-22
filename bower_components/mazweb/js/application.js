@@ -1,10 +1,11 @@
-define(['$'], function($){
+define(['$', 'bootstrap'], function($){
 
     var $window = $(window),
         $document = $(document);
 
     var Application = {
-        api: {}
+        api: {},
+        rootPath: ''
     };
 
     Application.init = function() {
@@ -14,7 +15,6 @@ define(['$'], function($){
     Application.api.parallax = {
         selector: 'a[href*=#]:not([href=#])',
         enable: function() {
-            // alert('cscaca');
             var self = this;
             var selector = self.selector;
             $(selector, $document).on('click', function() {

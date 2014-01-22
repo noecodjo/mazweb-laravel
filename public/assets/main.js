@@ -15,7 +15,9 @@
         },
         shim: {
             '$': {exports: '$'},
-            'bootstrap': { deps: ['$'] }
+            'bootstrap': { deps: ['$'] },
+
+            'mazweb/core/jquery.mazweb': { deps: ['$']}
         }
     });
 

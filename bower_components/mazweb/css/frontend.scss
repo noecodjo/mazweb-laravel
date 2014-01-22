@@ -1,5 +1,7 @@
 @import 'base';
 @import '../../font-awesome/scss/font-awesome';
+@import '_overlay';
+@import '_theme';
 
 .page-container {
   transition: margin 0.2s ease-in-out 0s;

@@ -21,5 +21,4 @@ class FixedPageController extends BaseController {
     {
         $this->layout->content = View::make('fixedpage.index');
 	}
-
 }

@@ -1,3 +1,19 @@
+/*+
+ * Color Swatches
+ */
+/**
+ * Variables
+ */
+/* Transitions */
+/**
+ * Site theme
+ */
+/**
+ * Feeds
+ */
+/**
+ * Parent colors (for project groups or other "parents"):
+ */
 /*!
  * Sass Bootstrap v3.0.21
  *
@@ -387,7 +403,7 @@ body {
   font-size: 14px;
   line-height: 1.42857;
   color: #333333;
-  background-color: white;
+  background-color: #fcfcfc;
 }
 
 /* line 34, ../../../bower_components/sass-bootstrap-compass/sass/_scaffolding.scss */
@@ -402,12 +418,12 @@ textarea {
 
 /* line 43, ../../../bower_components/sass-bootstrap-compass/sass/_scaffolding.scss */
 a {
-  color: #428bca;
+  color: #0072bc;
   text-decoration: none;
 }
 /* line 48, ../../../bower_components/sass-bootstrap-compass/sass/_scaffolding.scss */
 a:hover, a:focus {
-  color: #2a6496;
+  color: #004470;
   text-decoration: underline;
 }
 /* line 53, ../../../bower_components/sass-bootstrap-compass/sass/_scaffolding.scss */
@@ -431,16 +447,16 @@ img {
 
 /* line 71, ../../../bower_components/sass-bootstrap-compass/sass/_scaffolding.scss */
 .img-rounded {
-  border-radius: 6px;
+  border-radius: 0;
 }
 
 /* line 78, ../../../bower_components/sass-bootstrap-compass/sass/_scaffolding.scss */
 .img-thumbnail, .thumbnail {
   padding: 4px;
   line-height: 1.42857;
-  background-color: white;
+  background-color: #fcfcfc;
   border: 1px solid #dddddd;
-  border-radius: 4px;
+  border-radius: 0;
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
   display: inline-block;
@@ -647,7 +663,7 @@ h3, .h3 {
 
 /* line 119, ../../../bower_components/sass-bootstrap-compass/sass/_type.scss */
 h4, .h4 {
-  font-size: 18px;
+  font-size: 16px;
 }
 
 /* line 120, ../../../bower_components/sass-bootstrap-compass/sass/_type.scss */
@@ -664,7 +680,7 @@ h6, .h6 {
 .page-header {
   padding-bottom: 9px;
   margin: 40px 0 20px;
-  border-bottom: 1px solid #eeeeee;
+  border-bottom: 1px solid #e5e5e5;
 }
 
 /* line 140, ../../../bower_components/sass-bootstrap-compass/sass/_type.scss */
@@ -719,7 +735,7 @@ dd {
   margin-left: 0;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 920px) {
   /* line 192, ../../../bower_components/sass-bootstrap-compass/sass/_type.scss */
   .dl-horizontal dt {
     float: left;
@@ -837,7 +853,7 @@ code {
   color: #c7254e;
   background-color: #f9f2f4;
   white-space: nowrap;
-  border-radius: 4px;
+  border-radius: 0;
 }
 
 /* line 25, ../../../bower_components/sass-bootstrap-compass/sass/_code.scss */
@@ -852,7 +868,7 @@ pre {
   color: #333333;
   background-color: whitesmoke;
   border: 1px solid #cccccc;
-  border-radius: 4px;
+  border-radius: 0;
 }
 /* line 39, ../../../bower_components/sass-bootstrap-compass/sass/_code.scss */
 pre code {
@@ -1998,12 +2014,12 @@ th {
   padding: 8px;
   line-height: 1.42857;
   vertical-align: top;
-  border-top: 1px solid #dddddd;
+  border-top: 1px solid #eaeaea;
 }
 /* line 35, ../../../bower_components/sass-bootstrap-compass/sass/_tables.scss */
 .table > thead > tr > th {
   vertical-align: bottom;
-  border-bottom: 2px solid #dddddd;
+  border-bottom: 2px solid #eaeaea;
 }
 /* line 45, ../../../bower_components/sass-bootstrap-compass/sass/_tables.scss */
 .table > caption + thead > tr:first-child > th,
@@ -2016,11 +2032,11 @@ th {
 }
 /* line 51, ../../../bower_components/sass-bootstrap-compass/sass/_tables.scss */
 .table > tbody + tbody {
-  border-top: 2px solid #dddddd;
+  border-top: 2px solid #eaeaea;
 }
 /* line 56, ../../../bower_components/sass-bootstrap-compass/sass/_tables.scss */
 .table .table {
-  background-color: white;
+  background-color: #fcfcfc;
 }
 
 /* line 70, ../../../bower_components/sass-bootstrap-compass/sass/_tables.scss */
@@ -2035,7 +2051,7 @@ th {
 
 /* line 82, ../../../bower_components/sass-bootstrap-compass/sass/_tables.scss */
 .table-bordered {
-  border: 1px solid #dddddd;
+  border: 1px solid #eaeaea;
 }
 /* line 89, ../../../bower_components/sass-bootstrap-compass/sass/_tables.scss */
 .table-bordered > thead > tr > th,
@@ -2044,7 +2060,7 @@ th {
 .table-bordered > tbody > tr > td,
 .table-bordered > tfoot > tr > th,
 .table-bordered > tfoot > tr > td {
-  border: 1px solid #dddddd;
+  border: 1px solid #eaeaea;
 }
 /* line 96, ../../../bower_components/sass-bootstrap-compass/sass/_tables.scss */
 .table-bordered > thead > tr > th,
@@ -2159,7 +2175,7 @@ table th[class*="col-"] {
     overflow-y: hidden;
     overflow-x: scroll;
     -ms-overflow-style: -ms-autohiding-scrollbar;
-    border: 1px solid #dddddd;
+    border: 1px solid #eaeaea;
     -webkit-overflow-scrolling: touch;
   }
   /* line 193, ../../../bower_components/sass-bootstrap-compass/sass/_tables.scss */
@@ -2303,7 +2319,7 @@ output {
   background-color: white;
   background-image: none;
   border: 1px solid #cccccc;
-  border-radius: 4px;
+  border-radius: 0;
   -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
   -webkit-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
@@ -2318,19 +2334,19 @@ output {
 }
 /* line 57, ../../../bower_components/sass-bootstrap-compass/sass/_mixins.scss */
 .form-control:-moz-placeholder {
-  color: #999999;
+  color: #777777;
 }
 /* line 58, ../../../bower_components/sass-bootstrap-compass/sass/_mixins.scss */
 .form-control::-moz-placeholder {
-  color: #999999;
+  color: #777777;
 }
 /* line 59, ../../../bower_components/sass-bootstrap-compass/sass/_mixins.scss */
 .form-control:-ms-input-placeholder {
-  color: #999999;
+  color: #777777;
 }
 /* line 60, ../../../bower_components/sass-bootstrap-compass/sass/_mixins.scss */
 .form-control::-webkit-input-placeholder {
-  color: #999999;
+  color: #777777;
 }
 /* line 149, ../../../bower_components/sass-bootstrap-compass/sass/_forms.scss */
 .form-control[disabled], .form-control[readonly], fieldset[disabled] .form-control {
@@ -2421,7 +2437,7 @@ input[type="checkbox"],
   padding: 5px 10px;
   font-size: 12px;
   line-height: 1.5;
-  border-radius: 3px;
+  border-radius: 0;
 }
 
 /* line 900, ../../../bower_components/sass-bootstrap-compass/sass/_mixins.scss */
@@ -2441,7 +2457,7 @@ textarea.input-sm {
   padding: 10px 16px;
   font-size: 18px;
   line-height: 1.33;
-  border-radius: 6px;
+  border-radius: 0;
 }
 
 /* line 900, ../../../bower_components/sass-bootstrap-compass/sass/_mixins.scss */
@@ -2629,7 +2645,7 @@ textarea.input-lg {
   padding: 6px 12px;
   font-size: 14px;
   line-height: 1.42857;
-  border-radius: 4px;
+  border-radius: 0;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
@@ -2798,7 +2814,7 @@ textarea.input-lg {
 
 /* line 83, ../../../bower_components/sass-bootstrap-compass/sass/_buttons.scss */
 .btn-link {
-  color: #428bca;
+  color: #0072bc;
   font-weight: normal;
   cursor: pointer;
   border-radius: 0;
@@ -2815,7 +2831,7 @@ textarea.input-lg {
 }
 /* line 103, ../../../bower_components/sass-bootstrap-compass/sass/_buttons.scss */
 .btn-link:hover, .btn-link:focus {
-  color: #2a6496;
+  color: #004470;
   text-decoration: underline;
   background-color: transparent;
 }
@@ -2830,7 +2846,7 @@ textarea.input-lg {
   padding: 10px 16px;
   font-size: 18px;
   line-height: 1.33;
-  border-radius: 6px;
+  border-radius: 0;
 }
 
 /* line 127, ../../../bower_components/sass-bootstrap-compass/sass/_buttons.scss */
@@ -2840,7 +2856,7 @@ textarea.input-lg {
   padding: 5px 10px;
   font-size: 12px;
   line-height: 1.5;
-  border-radius: 3px;
+  border-radius: 0;
 }
 
 /* line 131, ../../../bower_components/sass-bootstrap-compass/sass/_buttons.scss */
@@ -2899,8 +2915,8 @@ input[type="button"].btn-block {
 
 @font-face {
   font-family: 'Glyphicons Halflings';
-  src: url("../fonts/glyphicons-halflings-regular.eot");
-  src: url("../fonts/glyphicons-halflings-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/glyphicons-halflings-regular.woff") format("woff"), url("../fonts/glyphicons-halflings-regular.ttf") format("truetype"), url("../fonts/glyphicons-halflings-regular.svg#glyphicons-halflingsregular") format("svg");
+  src: url("/fonts/glyphicons-halflings-regular.eot");
+  src: url("/fonts/glyphicons-halflings-regular.eot?#iefix") format("embedded-opentype"), url("/fonts/glyphicons-halflings-regular.woff") format("woff"), url("/fonts/glyphicons-halflings-regular.ttf") format("truetype"), url("/fonts/glyphicons-halflings-regular.svg#glyphicons-halflingsregular") format("svg");
 }
 
 /* line 21, ../../../bower_components/sass-bootstrap-compass/sass/_glyphicons.scss */
@@ -3959,7 +3975,7 @@ input[type="button"].btn-block {
   background-color: white;
   border: 1px solid #cccccc;
   border: 1px solid rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
+  border-radius: 0;
   -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
   background-clip: padding-box;
@@ -4065,7 +4081,7 @@ input[type="button"].btn-block {
   margin-bottom: 1px;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 920px) {
   /* line 187, ../../../bower_components/sass-bootstrap-compass/sass/_dropdowns.scss */
   .navbar-right .dropdown-menu {
     float: right;
@@ -4279,13 +4295,13 @@ input[type="button"].btn-block {
 }
 /* line 209, ../../../bower_components/sass-bootstrap-compass/sass/_button-groups.scss */
 .btn-group-vertical > .btn:first-child:not(:last-child) {
-  border-top-right-radius: 4px;
+  border-top-right-radius: 0;
   border-bottom-right-radius: 0;
   border-bottom-left-radius: 0;
 }
 /* line 213, ../../../bower_components/sass-bootstrap-compass/sass/_button-groups.scss */
 .btn-group-vertical > .btn:last-child:not(:first-child) {
-  border-bottom-left-radius: 4px;
+  border-bottom-left-radius: 0;
   border-top-right-radius: 0;
   border-top-left-radius: 0;
 }
@@ -4354,7 +4370,7 @@ input[type="button"].btn-block {
   padding: 10px 16px;
   font-size: 18px;
   line-height: 1.33;
-  border-radius: 6px;
+  border-radius: 0;
 }
 /* line 900, ../../../bower_components/sass-bootstrap-compass/sass/_mixins.scss */
 .input-group-lg > .form-control select.input-lg,
@@ -4378,7 +4394,7 @@ input[type="button"].btn-block {
   padding: 5px 10px;
   font-size: 12px;
   line-height: 1.5;
-  border-radius: 3px;
+  border-radius: 0;
 }
 /* line 900, ../../../bower_components/sass-bootstrap-compass/sass/_mixins.scss */
 .input-group-sm > .form-control select.input-sm,
@@ -4425,19 +4441,19 @@ input[type="button"].btn-block {
   text-align: center;
   background-color: #eeeeee;
   border: 1px solid #cccccc;
-  border-radius: 4px;
+  border-radius: 0;
 }
 /* line 75, ../../../bower_components/sass-bootstrap-compass/sass/_input-groups.scss */
 .input-group-addon.input-sm {
   padding: 5px 10px;
   font-size: 12px;
-  border-radius: 3px;
+  border-radius: 0;
 }
 /* line 80, ../../../bower_components/sass-bootstrap-compass/sass/_input-groups.scss */
 .input-group-addon.input-lg {
   padding: 10px 16px;
   font-size: 18px;
-  border-radius: 6px;
+  border-radius: 0;
 }
 /* line 88, ../../../bower_components/sass-bootstrap-compass/sass/_input-groups.scss */
 .input-group-addon input[type="radio"],
@@ -4528,12 +4544,12 @@ input[type="button"].btn-block {
 .nav > li > a {
   position: relative;
   display: block;
-  padding: 10px 15px;
+  padding: 5px 15px;
 }
 /* line 24, ../../../bower_components/sass-bootstrap-compass/sass/_navs.scss */
 .nav > li > a:hover, .nav > li > a:focus {
   text-decoration: none;
-  background-color: #eeeeee;
+  background-color: #f0f0f0;
 }
 /* line 31, ../../../bower_components/sass-bootstrap-compass/sass/_navs.scss */
 .nav > li.disabled > a {
@@ -4548,13 +4564,13 @@ input[type="button"].btn-block {
 }
 /* line 48, ../../../bower_components/sass-bootstrap-compass/sass/_navs.scss */
 .nav .open > a, .nav .open > a:hover, .nav .open > a:focus {
-  background-color: #eeeeee;
-  border-color: #428bca;
+  background-color: #f0f0f0;
+  border-color: #0072bc;
 }
 /* line 52, ../../../bower_components/sass-bootstrap-compass/sass/_navs.scss */
 .nav .open > a .caret, .nav .open > a:hover .caret, .nav .open > a:focus .caret {
-  border-top-color: #2a6496;
-  border-bottom-color: #2a6496;
+  border-top-color: #004470;
+  border-bottom-color: #004470;
 }
 /* line 64, ../../../bower_components/sass-bootstrap-compass/sass/_navs.scss */
 .nav .nav-divider {
@@ -4582,7 +4598,7 @@ input[type="button"].btn-block {
   margin-right: 2px;
   line-height: 1.42857;
   border: 1px solid transparent;
-  border-radius: 4px 4px 0 0;
+  border-radius: 0 0 0 0;
 }
 /* line 94, ../../../bower_components/sass-bootstrap-compass/sass/_navs.scss */
 .nav-tabs > li > a:hover {
@@ -4591,7 +4607,7 @@ input[type="button"].btn-block {
 /* line 103, ../../../bower_components/sass-bootstrap-compass/sass/_navs.scss */
 .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
   color: #555555;
-  background-color: white;
+  background-color: #fcfcfc;
   border: 1px solid #dddddd;
   border-bottom-color: transparent;
   cursor: default;
@@ -4603,7 +4619,7 @@ input[type="button"].btn-block {
 }
 /* line 127, ../../../bower_components/sass-bootstrap-compass/sass/_navs.scss */
 .nav-pills > li > a {
-  border-radius: 4px;
+  border-radius: 0;
 }
 /* line 130, ../../../bower_components/sass-bootstrap-compass/sass/_navs.scss */
 .nav-pills > li + li {
@@ -4667,7 +4683,7 @@ input[type="button"].btn-block {
 /* line 203, ../../../bower_components/sass-bootstrap-compass/sass/_navs.scss */
 .nav-tabs-justified > li > a, .nav-tabs.nav-justified > li > a {
   margin-right: 0;
-  border-radius: 4px;
+  border-radius: 0;
 }
 /* line 211, ../../../bower_components/sass-bootstrap-compass/sass/_navs.scss */
 .nav-tabs-justified > .active > a, .nav-tabs.nav-justified > .active > a,
@@ -4681,7 +4697,7 @@ input[type="button"].btn-block {
   /* line 216, ../../../bower_components/sass-bootstrap-compass/sass/_navs.scss */
   .nav-tabs-justified > li > a, .nav-tabs.nav-justified > li > a {
     border-bottom: 1px solid #dddddd;
-    border-radius: 4px 4px 0 0;
+    border-radius: 0 0 0 0;
   }
   /* line 222, ../../../bower_components/sass-bootstrap-compass/sass/_navs.scss */
   .nav-tabs-justified > .active > a, .nav-tabs.nav-justified > .active > a,
@@ -4689,7 +4705,7 @@ input[type="button"].btn-block {
   .nav-tabs.nav-justified > .active > a:hover,
   .nav-tabs-justified > .active > a:focus,
   .nav-tabs.nav-justified > .active > a:focus {
-    border-bottom-color: white;
+    border-bottom-color: #fcfcfc;
   }
 }
 
@@ -4704,14 +4720,14 @@ input[type="button"].btn-block {
 
 /* line 247, ../../../bower_components/sass-bootstrap-compass/sass/_navs.scss */
 .nav .caret {
-  border-top-color: #428bca;
-  border-bottom-color: #428bca;
+  border-top-color: #0072bc;
+  border-bottom-color: #0072bc;
 }
 
 /* line 251, ../../../bower_components/sass-bootstrap-compass/sass/_navs.scss */
 .nav a:hover .caret {
-  border-top-color: #2a6496;
-  border-bottom-color: #2a6496;
+  border-top-color: #004470;
+  border-bottom-color: #004470;
 }
 
 /* line 257, ../../../bower_components/sass-bootstrap-compass/sass/_navs.scss */
@@ -4724,7 +4740,7 @@ input[type="button"].btn-block {
 /* line 11, ../../../bower_components/sass-bootstrap-compass/sass/_navbar.scss */
 .navbar {
   position: relative;
-  min-height: 50px;
+  min-height: 40px;
   margin-bottom: 20px;
   border: 1px solid transparent;
 }
@@ -4739,10 +4755,10 @@ input[type="button"].btn-block {
 .navbar:after {
   clear: both;
 }
-@media (min-width: 768px) {
+@media (min-width: 920px) {
   /* line 11, ../../../bower_components/sass-bootstrap-compass/sass/_navbar.scss */
   .navbar {
-    border-radius: 4px;
+    border-radius: 0;
   }
 }
 
@@ -4757,7 +4773,7 @@ input[type="button"].btn-block {
 .navbar-header:after {
   clear: both;
 }
-@media (min-width: 768px) {
+@media (min-width: 920px) {
   /* line 31, ../../../bower_components/sass-bootstrap-compass/sass/_navbar.scss */
   .navbar-header {
     float: left;
@@ -4789,7 +4805,7 @@ input[type="button"].btn-block {
 .navbar-collapse.in {
   overflow-y: auto;
 }
-@media (min-width: 768px) {
+@media (min-width: 920px) {
   /* line 50, ../../../bower_components/sass-bootstrap-compass/sass/_navbar.scss */
   .navbar-collapse {
     width: auto;
@@ -4827,7 +4843,7 @@ input[type="button"].btn-block {
   margin-right: -15px;
   margin-left: -15px;
 }
-@media (min-width: 768px) {
+@media (min-width: 920px) {
   /* line 99, ../../../bower_components/sass-bootstrap-compass/sass/_navbar.scss */
   .container > .navbar-header,
   .container > .navbar-collapse {
@@ -4841,7 +4857,7 @@ input[type="button"].btn-block {
   z-index: 1000;
   border-width: 0 0 1px;
 }
-@media (min-width: 768px) {
+@media (min-width: 920px) {
   /* line 117, ../../../bower_components/sass-bootstrap-compass/sass/_navbar.scss */
   .navbar-static-top {
     border-radius: 0;
@@ -4856,7 +4872,7 @@ input[type="button"].btn-block {
   left: 0;
   z-index: 1030;
 }
-@media (min-width: 768px) {
+@media (min-width: 920px) {
   /* line 128, ../../../bower_components/sass-bootstrap-compass/sass/_navbar.scss */
   .navbar-fixed-top,
   .navbar-fixed-bottom {
@@ -4880,7 +4896,7 @@ input[type="button"].btn-block {
 /* line 152, ../../../bower_components/sass-bootstrap-compass/sass/_navbar.scss */
 .navbar-brand {
   float: left;
-  padding: 15px 15px;
+  padding: 10px 15px;
   font-size: 18px;
   line-height: 20px;
 }
@@ -4888,7 +4904,7 @@ input[type="button"].btn-block {
 .navbar-brand:hover, .navbar-brand:focus {
   text-decoration: none;
 }
-@media (min-width: 768px) {
+@media (min-width: 920px) {
   /* line 164, ../../../bower_components/sass-bootstrap-compass/sass/_navbar.scss */
   .navbar > .container .navbar-brand {
     margin-left: -15px;
@@ -4901,11 +4917,11 @@ input[type="button"].btn-block {
   float: right;
   margin-right: 15px;
   padding: 9px 10px;
-  margin-top: 8px;
-  margin-bottom: 8px;
+  margin-top: 3px;
+  margin-bottom: 3px;
   background-color: transparent;
   border: 1px solid transparent;
-  border-radius: 4px;
+  border-radius: 0;
 }
 /* line 187, ../../../bower_components/sass-bootstrap-compass/sass/_navbar.scss */
 .navbar-toggle .icon-bar {
@@ -4918,7 +4934,7 @@ input[type="button"].btn-block {
 .navbar-toggle .icon-bar + .icon-bar {
   margin-top: 4px;
 }
-@media (min-width: 768px) {
+@media (min-width: 920px) {
   /* line 176, ../../../bower_components/sass-bootstrap-compass/sass/_navbar.scss */
   .navbar-toggle {
     display: none;
@@ -4927,7 +4943,7 @@ input[type="button"].btn-block {
 
 /* line 208, ../../../bower_components/sass-bootstrap-compass/sass/_navbar.scss */
 .navbar-nav {
-  margin: 7.5px -15px;
+  margin: 5px -15px;
 }
 /* line 211, ../../../bower_components/sass-bootstrap-compass/sass/_navbar.scss */
 .navbar-nav > li > a {
@@ -4960,7 +4976,7 @@ input[type="button"].btn-block {
     background-image: none;
   }
 }
-@media (min-width: 768px) {
+@media (min-width: 920px) {
   /* line 208, ../../../bower_components/sass-bootstrap-compass/sass/_navbar.scss */
   .navbar-nav {
     float: left;
@@ -4972,12 +4988,12 @@ input[type="button"].btn-block {
   }
   /* line 248, ../../../bower_components/sass-bootstrap-compass/sass/_navbar.scss */
   .navbar-nav > li > a {
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 920px) {
   /* line 265, ../../../bower_components/sass-bootstrap-compass/sass/_navbar.scss */
   .navbar-left {
     float: left;
@@ -4997,8 +5013,8 @@ input[type="button"].btn-block {
   border-bottom: 1px solid transparent;
   -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 0 rgba(255, 255, 255, 0.1);
   box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 0 rgba(255, 255, 255, 0.1);
-  margin-top: 8px;
-  margin-bottom: 8px;
+  margin-top: 3px;
+  margin-bottom: 3px;
 }
 @media (max-width: 767px) {
   /* line 287, ../../../bower_components/sass-bootstrap-compass/sass/_navbar.scss */
@@ -5006,7 +5022,7 @@ input[type="button"].btn-block {
     margin-bottom: 5px;
   }
 }
-@media (min-width: 768px) {
+@media (min-width: 920px) {
   /* line 275, ../../../bower_components/sass-bootstrap-compass/sass/_navbar.scss */
   .navbar-form {
     width: auto;
@@ -5042,17 +5058,17 @@ input[type="button"].btn-block {
 
 /* line 333, ../../../bower_components/sass-bootstrap-compass/sass/_navbar.scss */
 .navbar-btn {
-  margin-top: 8px;
-  margin-bottom: 8px;
+  margin-top: 3px;
+  margin-bottom: 3px;
 }
 
 /* line 342, ../../../bower_components/sass-bootstrap-compass/sass/_navbar.scss */
 .navbar-text {
   float: left;
-  margin-top: 15px;
-  margin-bottom: 15px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
-@media (min-width: 768px) {
+@media (min-width: 920px) {
   /* line 342, ../../../bower_components/sass-bootstrap-compass/sass/_navbar.scss */
   .navbar-text {
     margin-left: 15px;
@@ -5195,7 +5211,7 @@ input[type="button"].btn-block {
 /* line 522, ../../../bower_components/sass-bootstrap-compass/sass/_navbar.scss */
 .navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
   color: white;
-  background-color: #090909;
+  background-color: #404040;
 }
 /* line 530, ../../../bower_components/sass-bootstrap-compass/sass/_navbar.scss */
 .navbar-inverse .navbar-nav > .disabled > a, .navbar-inverse .navbar-nav > .disabled > a:hover, .navbar-inverse .navbar-nav > .disabled > a:focus {
@@ -5221,7 +5237,7 @@ input[type="button"].btn-block {
 }
 /* line 559, ../../../bower_components/sass-bootstrap-compass/sass/_navbar.scss */
 .navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
-  background-color: #090909;
+  background-color: #404040;
   color: white;
 }
 /* line 564, ../../../bower_components/sass-bootstrap-compass/sass/_navbar.scss */
@@ -5256,7 +5272,7 @@ input[type="button"].btn-block {
   /* line 600, ../../../bower_components/sass-bootstrap-compass/sass/_navbar.scss */
   .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a, .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a:hover, .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a:focus {
     color: white;
-    background-color: #090909;
+    background-color: #404040;
   }
   /* line 608, ../../../bower_components/sass-bootstrap-compass/sass/_navbar.scss */
   .navbar-inverse .navbar-nav .open .dropdown-menu > .disabled > a, .navbar-inverse .navbar-nav .open .dropdown-menu > .disabled > a:hover, .navbar-inverse .navbar-nav .open .dropdown-menu > .disabled > a:focus {
@@ -5279,7 +5295,7 @@ input[type="button"].btn-block {
   margin-bottom: 20px;
   list-style: none;
   background-color: whitesmoke;
-  border-radius: 4px;
+  border-radius: 0;
 }
 /* line 12, ../../../bower_components/sass-bootstrap-compass/sass/_breadcrumbs.scss */
 .breadcrumb > li {
@@ -5301,7 +5317,7 @@ input[type="button"].btn-block {
   display: inline-block;
   padding-left: 0;
   margin: 20px 0;
-  border-radius: 4px;
+  border-radius: 0;
 }
 /* line 10, ../../../bower_components/sass-bootstrap-compass/sass/_pagination.scss */
 .pagination > li {
@@ -5323,14 +5339,14 @@ input[type="button"].btn-block {
 .pagination > li:first-child > a,
 .pagination > li:first-child > span {
   margin-left: 0;
-  border-bottom-left-radius: 4px;
-  border-top-left-radius: 4px;
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
 }
 /* line 32, ../../../bower_components/sass-bootstrap-compass/sass/_pagination.scss */
 .pagination > li:last-child > a,
 .pagination > li:last-child > span {
-  border-bottom-right-radius: 4px;
-  border-top-right-radius: 4px;
+  border-bottom-right-radius: 0;
+  border-top-right-radius: 0;
 }
 /* line 41, ../../../bower_components/sass-bootstrap-compass/sass/_pagination.scss */
 .pagination > li > a:hover, .pagination > li > a:focus,
@@ -5371,14 +5387,14 @@ input[type="button"].btn-block {
 /* line 520, ../../../bower_components/sass-bootstrap-compass/sass/_mixins.scss */
 .pagination-lg > li:first-child > a,
 .pagination-lg > li:first-child > span {
-  border-bottom-left-radius: 6px;
-  border-top-left-radius: 6px;
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
 }
 /* line 526, ../../../bower_components/sass-bootstrap-compass/sass/_mixins.scss */
 .pagination-lg > li:last-child > a,
 .pagination-lg > li:last-child > span {
-  border-bottom-right-radius: 6px;
-  border-top-right-radius: 6px;
+  border-bottom-right-radius: 0;
+  border-top-right-radius: 0;
 }
 
 /* line 514, ../../../bower_components/sass-bootstrap-compass/sass/_mixins.scss */
@@ -5390,14 +5406,14 @@ input[type="button"].btn-block {
 /* line 520, ../../../bower_components/sass-bootstrap-compass/sass/_mixins.scss */
 .pagination-sm > li:first-child > a,
 .pagination-sm > li:first-child > span {
-  border-bottom-left-radius: 3px;
-  border-top-left-radius: 3px;
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
 }
 /* line 526, ../../../bower_components/sass-bootstrap-compass/sass/_mixins.scss */
 .pagination-sm > li:last-child > a,
 .pagination-sm > li:last-child > span {
-  border-bottom-right-radius: 3px;
-  border-top-right-radius: 3px;
+  border-bottom-right-radius: 0;
+  border-top-right-radius: 0;
 }
 
 /* line 6, ../../../bower_components/sass-bootstrap-compass/sass/_pager.scss */
@@ -5571,7 +5587,7 @@ a.badge:hover, a.badge:focus {
 /* line 45, ../../../bower_components/sass-bootstrap-compass/sass/_badges.scss */
 a.list-group-item.active > .badge,
 .nav-pills > .active > a > .badge {
-  color: #428bca;
+  color: #0072bc;
   background-color: white;
 }
 
@@ -5601,7 +5617,7 @@ a.list-group-item.active > .badge,
 }
 /* line 23, ../../../bower_components/sass-bootstrap-compass/sass/_jumbotron.scss */
 .container .jumbotron {
-  border-radius: 6px;
+  border-radius: 0;
 }
 @media screen and (min-width: 768px) {
   /* line 6, ../../../bower_components/sass-bootstrap-compass/sass/_jumbotron.scss */
@@ -5637,7 +5653,7 @@ a.list-group-item.active > .badge,
 /* line 22, ../../../bower_components/sass-bootstrap-compass/sass/_thumbnails.scss */
 a.thumbnail:hover,
 a.thumbnail:focus {
-  border-color: #428bca;
+  border-color: #0072bc;
 }
 
 /* line 27, ../../../bower_components/sass-bootstrap-compass/sass/_thumbnails.scss */
@@ -5700,7 +5716,7 @@ a.thumbnail:focus {
   height: 20px;
   margin-bottom: 20px;
   background-color: whitesmoke;
-  border-radius: 4px;
+  border-radius: 0;
   -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
   box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
 }
@@ -5839,19 +5855,19 @@ a.thumbnail:focus {
   display: block;
   padding: 10px 15px;
   margin-bottom: -1px;
-  background-color: white;
+  background-color: transparent;
   border: 1px solid #dddddd;
 }
 /* line 27, ../../../bower_components/sass-bootstrap-compass/sass/_list-group.scss */
 .list-group-item:first-child {
-  border-top-right-radius: 4px;
-  border-top-left-radius: 4px;
+  border-top-right-radius: 0;
+  border-top-left-radius: 0;
 }
 /* line 30, ../../../bower_components/sass-bootstrap-compass/sass/_list-group.scss */
 .list-group-item:last-child {
   margin-bottom: 0;
-  border-bottom-right-radius: 4px;
-  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
 }
 /* line 36, ../../../bower_components/sass-bootstrap-compass/sass/_list-group.scss */
 .list-group-item > .badge {
@@ -5908,7 +5924,7 @@ a.list-group-item.active .list-group-item-text, a.list-group-item.active:hover .
   margin-bottom: 20px;
   background-color: white;
   border: 1px solid transparent;
-  border-radius: 4px;
+  border-radius: 0;
   -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
 }
@@ -5960,7 +5976,7 @@ a.list-group-item.active .list-group-item-text, a.list-group-item.active:hover .
 /* line 64, ../../../bower_components/sass-bootstrap-compass/sass/_panels.scss */
 .panel > .panel-body + .table,
 .panel > .panel-body + .table-responsive {
-  border-top: 1px solid #dddddd;
+  border-top: 1px solid #eaeaea;
 }
 /* line 68, ../../../bower_components/sass-bootstrap-compass/sass/_panels.scss */
 .panel > .table-bordered,
@@ -6016,8 +6032,8 @@ a.list-group-item.active .list-group-item-text, a.list-group-item.active:hover .
 .panel-heading {
   padding: 10px 15px;
   border-bottom: 1px solid transparent;
-  border-top-right-radius: 3px;
-  border-top-left-radius: 3px;
+  border-top-right-radius: -1;
+  border-top-left-radius: -1;
 }
 /* line 99, ../../../bower_components/sass-bootstrap-compass/sass/_panels.scss */
 .panel-heading > .dropdown .dropdown-toggle {
@@ -6040,14 +6056,14 @@ a.list-group-item.active .list-group-item-text, a.list-group-item.active:hover .
   padding: 10px 15px;
   background-color: whitesmoke;
   border-top: 1px solid #dddddd;
-  border-bottom-right-radius: 3px;
-  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: -1;
+  border-bottom-left-radius: -1;
 }
 
 /* line 130, ../../../bower_components/sass-bootstrap-compass/sass/_panels.scss */
 .panel-group .panel {
   margin-bottom: 0;
-  border-radius: 4px;
+  border-radius: 0;
   overflow: hidden;
 }
 /* line 134, ../../../bower_components/sass-bootstrap-compass/sass/_panels.scss */
@@ -6073,17 +6089,17 @@ a.list-group-item.active .list-group-item-text, a.list-group-item.active:hover .
 
 /* line 155, ../../../bower_components/sass-bootstrap-compass/sass/_panels.scss */
 .panel-default {
-  border-color: #dddddd;
+  border-color: #e5e5e5;
 }
 /* line 401, ../../../bower_components/sass-bootstrap-compass/sass/_mixins.scss */
 .panel-default > .panel-heading {
   color: #333333;
-  background-color: whitesmoke;
-  border-color: #dddddd;
+  background-color: transparent;
+  border-color: #e5e5e5;
 }
 /* line 406, ../../../bower_components/sass-bootstrap-compass/sass/_mixins.scss */
 .panel-default > .panel-heading + .panel-collapse .panel-body {
-  border-top-color: #dddddd;
+  border-top-color: #e5e5e5;
 }
 /* line 409, ../../../bower_components/sass-bootstrap-compass/sass/_mixins.scss */
 .panel-default > .panel-heading > .dropdown .caret {
@@ -6091,7 +6107,7 @@ a.list-group-item.active .list-group-item-text, a.list-group-item.active:hover .
 }
 /* line 414, ../../../bower_components/sass-bootstrap-compass/sass/_mixins.scss */
 .panel-default > .panel-footer + .panel-collapse .panel-body {
-  border-bottom-color: #dddddd;
+  border-bottom-color: #e5e5e5;
 }
 
 /* line 158, ../../../bower_components/sass-bootstrap-compass/sass/_panels.scss */
@@ -6216,7 +6232,7 @@ a.list-group-item.active .list-group-item-text, a.list-group-item.active:hover .
   margin-bottom: 20px;
   background-color: whitesmoke;
   border: 1px solid #e3e3e3;
-  border-radius: 4px;
+  border-radius: 0;
   -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
 }
@@ -6229,13 +6245,13 @@ a.list-group-item.active .list-group-item-text, a.list-group-item.active:hover .
 /* line 22, ../../../bower_components/sass-bootstrap-compass/sass/_wells.scss */
 .well-lg {
   padding: 24px;
-  border-radius: 6px;
+  border-radius: 0;
 }
 
 /* line 26, ../../../bower_components/sass-bootstrap-compass/sass/_wells.scss */
 .well-sm {
   padding: 9px;
-  border-radius: 3px;
+  border-radius: 0;
 }
 
 /* line 6, ../../../bower_components/sass-bootstrap-compass/sass/_close.scss */
@@ -6272,7 +6288,7 @@ button.close {
   padding: 15px;
   margin-bottom: 20px;
   border: 1px solid transparent;
-  border-radius: 4px;
+  border-radius: 0;
 }
 /* line 16, ../../../bower_components/sass-bootstrap-compass/sass/_alerts.scss */
 .alert h4 {
@@ -6307,7 +6323,7 @@ button.close {
 
 /* line 56, ../../../bower_components/sass-bootstrap-compass/sass/_alerts.scss */
 .alert-success {
-  background-color: #dff0d8;
+  background-color: #f8fcf1;
   border-color: #d6e9c6;
   color: #468847;
 }
@@ -6322,7 +6338,7 @@ button.close {
 
 /* line 59, ../../../bower_components/sass-bootstrap-compass/sass/_alerts.scss */
 .alert-info {
-  background-color: #d9edf7;
+  background-color: #f6fafa;
   border-color: #bce8f1;
   color: #3a87ad;
 }
@@ -6337,7 +6353,7 @@ button.close {
 
 /* line 62, ../../../bower_components/sass-bootstrap-compass/sass/_alerts.scss */
 .alert-warning {
-  background-color: #fcf8e3;
+  background-color: #fffcee;
   border-color: #faebcc;
   color: #c09853;
 }
@@ -6352,7 +6368,7 @@ button.close {
 
 /* line 65, ../../../bower_components/sass-bootstrap-compass/sass/_alerts.scss */
 .alert-danger {
-  background-color: #f2dede;
+  background-color: #f8f4f4;
   border-color: #ebccd1;
   color: #b94a48;
 }
@@ -6414,7 +6430,7 @@ button.close {
   background-color: white;
   border: 1px solid #999999;
   border: 1px solid rgba(0, 0, 0, 0.2);
-  border-radius: 6px;
+  border-radius: 0;
   -webkit-box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
   box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
   background-clip: padding-box;
@@ -6557,7 +6573,7 @@ button.close {
   text-align: center;
   text-decoration: none;
   background-color: black;
-  border-radius: 4px;
+  border-radius: 0;
 }
 
 /* line 35, ../../../bower_components/sass-bootstrap-compass/sass/_tooltip.scss */
@@ -6637,14 +6653,14 @@ button.close {
   left: 0;
   z-index: 1010;
   display: none;
-  max-width: 276px;
+  max-width: 400px;
   padding: 1px;
   text-align: left;
   background-color: white;
   background-clip: padding-box;
   border: 1px solid #cccccc;
   border: 1px solid rgba(0, 0, 0, 0.2);
-  border-radius: 6px;
+  border-radius: 0;
   -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
   white-space: normal;
@@ -9931,27 +9947,994 @@ td.visible-print {
   content: "\f196";
 }
 
-/* line 4, ../../../bower_components/mazweb/css/frontend.scss */
+/*$grey1:                         #ccc;
+$grey2:                         #ccc;
+$grey3:                         #ccc;
+$grey4:                         #ccc;
+$grey8:                         #ccc;
+$red:                           #f00;
+$greenBright:                   #0f0; */
+/* line 24, ../../../bower_components/mazweb/css/_overlay.scss */
+body.overlay-open {
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+/* line 25, ../../../bower_components/mazweb/css/_overlay.scss */
+body.overlay-open #topnav {
+  z-index: 1000;
+}
+/* line 29, ../../../bower_components/mazweb/css/_overlay.scss */
+body.overlay-open .embed {
+  visibility: hidden;
+}
+
+/* line 42, ../../../bower_components/mazweb/css/_overlay.scss */
+body.overlay-open.overlay-expanding {
+  overflow: auto;
+}
+/* line 44, ../../../bower_components/mazweb/css/_overlay.scss */
+body.overlay-open.overlay-expanding .overlay-header .progress {
+  display: none;
+}
+/* line 45, ../../../bower_components/mazweb/css/_overlay.scss */
+body.overlay-open.overlay-expanding .fade {
+  opacity: 0;
+}
+
+/* line 51, ../../../bower_components/mazweb/css/_overlay.scss */
+.overlay-open.sidebar #tb-sidebar-container,
+.overlay-expanding.sidebar #tb-sidebar-container {
+  display: none;
+}
+
+/* line 56, ../../../bower_components/mazweb/css/_overlay.scss */
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1030;
+  text-align: left;
+  background: #e0e0e0;
+  background: rgba(224, 224, 224, 0.95);
+  /**
+   * These calendar event classes need genericized
+   */
+}
+/* line 68, ../../../bower_components/mazweb/css/_overlay.scss */
+.overlay .breadcrumb {
+  background-color: transparent;
+  margin-bottom: 10px;
+  padding: 5px;
+}
+/* line 74, ../../../bower_components/mazweb/css/_overlay.scss */
+.overlay hr {
+  margin: 10px 0;
+}
+/* line 83, ../../../bower_components/mazweb/css/_overlay.scss */
+.overlay .section {
+  padding: 20px;
+  position: relative;
+}
+/* line 87, ../../../bower_components/mazweb/css/_overlay.scss */
+.overlay .section .control-icon {
+  color: #999;
+  margin-top: 4px;
+}
+/* line 90, ../../../bower_components/mazweb/css/_overlay.scss */
+.overlay .section .control-icon:before {
+  font-size: 20px;
+}
+/* line 93, ../../../bower_components/mazweb/css/_overlay.scss */
+.overlay .section.main {
+  padding-right: 0;
+  position: relative;
+  z-index: 1;
+}
+/* line 99, ../../../bower_components/mazweb/css/_overlay.scss */
+.overlay .section.shifted {
+  padding-left: 50px;
+}
+/* line 100, ../../../bower_components/mazweb/css/_overlay.scss */
+.overlay .section .shifted {
+  margin-left: 30px;
+}
+/* line 101, ../../../bower_components/mazweb/css/_overlay.scss */
+.overlay .section .unshifted {
+  margin-left: -30px;
+  position: absolute;
+}
+/* line 102, ../../../bower_components/mazweb/css/_overlay.scss */
+.overlay .section input.unshifted {
+  margin-left: -20px;
+}
+/* line 103, ../../../bower_components/mazweb/css/_overlay.scss */
+.overlay .section input.vertically-padded {
+  margin-bottom: 5px;
+}
+/* line 105, ../../../bower_components/mazweb/css/_overlay.scss */
+.overlay .section.bordered {
+  border-bottom: 1px solid #cdcdcd;
+}
+/* line 107, ../../../bower_components/mazweb/css/_overlay.scss */
+.overlay .section.bordered.top {
+  border-bottom: none;
+  border-top: 1px solid #cdcdcd;
+}
+/* line 112, ../../../bower_components/mazweb/css/_overlay.scss */
+.overlay .section.form-group {
+  margin-bottom: 0;
+}
+/* line 115, ../../../bower_components/mazweb/css/_overlay.scss */
+.overlay .control-label {
+  display: block;
+  font-weight: bold;
+  cursor: default;
+}
+/* line 116, ../../../bower_components/mazweb/css/_overlay.scss */
+.overlay .hide {
+  display: none !important;
+}
+/* line 119, ../../../bower_components/mazweb/css/_overlay.scss */
+.overlay .gutter-left {
+  padding-left: 2.12766%;
+}
+/* line 120, ../../../bower_components/mazweb/css/_overlay.scss */
+.overlay .gutter-right {
+  padding-right: 2.12766%;
+}
+/* line 121, ../../../bower_components/mazweb/css/_overlay.scss */
+.overlay .img-responsive img, .overlay img.img-responsive {
+  max-width: 100%;
+}
+/* line 123, ../../../bower_components/mazweb/css/_overlay.scss */
+.overlay.expand {
+  -webkit-transition: left 0.6s ease, right 0.6s ease, top 0.6s ease, bottom 0.6s ease;
+  transition: left 0.6s ease, right 0.6s ease, top 0.6s ease, bottom 0.6s ease;
+}
+/* line 133, ../../../bower_components/mazweb/css/_overlay.scss */
+.overlay .event-details-modal .details-area .timezone {
+  margin-top: 10px;
+}
+/* line 135, ../../../bower_components/mazweb/css/_overlay.scss */
+.overlay .event-details-modal .details-area .timezone select {
+  width: 100%;
+}
+/* line 137, ../../../bower_components/mazweb/css/_overlay.scss */
+.overlay .event-details-modal .details-area .set-timezone {
+  font-size: 12px;
+  margin: 5px;
+}
+/* line 144, ../../../bower_components/mazweb/css/_overlay.scss */
+.overlay .recurrence-days, .overlay .recurrence-end {
+  margin-top: 10px;
+}
+/* line 148, ../../../bower_components/mazweb/css/_overlay.scss */
+.overlay .recurrence-days .weekday {
+  display: inline-block;
+  margin-right: 10px;
+}
+/* line 153, ../../../bower_components/mazweb/css/_overlay.scss */
+.overlay .edit-series a {
+  width: 50%;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+/* line 162, ../../../bower_components/mazweb/css/_overlay.scss */
+.overlay-menu {
+  background: #e5e5e5;
+  list-style: none;
+  margin: 0;
+  z-index: 2;
+  overflow: auto;
+  padding: 0;
+}
+/* line 173, ../../../bower_components/mazweb/css/_overlay.scss */
+.overlay-menu > li {
+  border-bottom: 1px solid #d7d7d7;
+  padding-left: 20px;
+}
+/* line 178, ../../../bower_components/mazweb/css/_overlay.scss */
+.overlay-menu > li:hover {
+  background-color: #eaeaea;
+}
+/* line 182, ../../../bower_components/mazweb/css/_overlay.scss */
+.overlay-menu > li > a {
+  color: #333333;
+  font-size: 16px;
+  display: inline-block;
+  width: 100%;
+  padding: 15px 0px;
+}
+/* line 190, ../../../bower_components/mazweb/css/_overlay.scss */
+.overlay-menu > li > ul {
+  padding: 0;
+}
+/* line 194, ../../../bower_components/mazweb/css/_overlay.scss */
+.overlay-menu > li.active {
+  background-color: #d7d7d7;
+  position: relative;
+}
+
+/* line 217, ../../../bower_components/mazweb/css/_overlay.scss */
+.scrollable-section {
+  position: relative;
+  height: 395px;
+  width: 100%;
+}
+/* line 222, ../../../bower_components/mazweb/css/_overlay.scss */
+.scrollable-section .scrollable-area {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  bottom: 0;
+  overflow: auto;
+  overflow-y: scroll;
+}
+
+/* line 232, ../../../bower_components/mazweb/css/_overlay.scss */
+.overlay-scrollable {
+  position: absolute;
+  top: 58px;
+  bottom: 60px;
+  right: 0;
+  left: 0;
+  overflow: auto;
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
+}
+
+/* line 243, ../../../bower_components/mazweb/css/_overlay.scss */
+.overlay-row-container {
+  padding-right: 15px;
+}
+
+/* line 247, ../../../bower_components/mazweb/css/_overlay.scss */
+.overlay-border {
+  position: absolute;
+  top: 58px;
+  bottom: 14px;
+  width: 10px;
+  margin-left: 16px !important;
+  border-left: 1px solid #cdcdcd;
+}
+/* line 256, ../../../bower_components/mazweb/css/_overlay.scss */
+.overlay-border.col-md-offset-9 {
+  left: 75%;
+}
+/* line 257, ../../../bower_components/mazweb/css/_overlay.scss */
+.overlay-border.col-md-offset-8 {
+  left: 66.6667%;
+}
+
+/* line 260, ../../../bower_components/mazweb/css/_overlay.scss */
+.overlay-header {
+  position: relative;
+  background-color: #f0f0f0;
+  border-bottom: 1px solid #cccccc;
+  padding: 15px 20px;
+  height: 58px;
+}
+/* line 267, ../../../bower_components/mazweb/css/_overlay.scss */
+.overlay-header .logo {
+  position: absolute;
+  right: 0;
+  top: 10px;
+}
+/* line 273, ../../../bower_components/mazweb/css/_overlay.scss */
+.overlay-header h3 {
+  font-size: 20px;
+  margin: 3px;
+}
+
+/* line 283, ../../../bower_components/mazweb/css/_overlay.scss */
+.overlay-footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #f0f0f0;
+  border-top: 1px solid #cccccc;
+  height: 60px;
+  padding: 10px 20px 0;
+  width: 100%;
+  z-index: 2000;
+}
+
+/* line 300, ../../../bower_components/mazweb/css/_overlay.scss */
+.overlay .cke_toolbar_break {
+  display: none;
+}
+/* line 304, ../../../bower_components/mazweb/css/_overlay.scss */
+.overlay .fade-editor {
+  background-color: white;
+  border: 1px solid #B6B6B6;
+  padding: 8px;
+}
+/* line 310, ../../../bower_components/mazweb/css/_overlay.scss */
+.overlay .cke_documenttypes .cke_combo_text {
+  min-width: 95px;
+  white-space: nowrap;
+}
+/* line 315, ../../../bower_components/mazweb/css/_overlay.scss */
+.overlay .cke_documenttype_label {
+  padding: 5px 10px;
+  margin-left: 40px;
+  background: darkgreen;
+  color: #f9f9f9;
+  display: inline-block;
+  font-size: 14px;
+  line-height: 14px;
+}
+/* line 324, ../../../bower_components/mazweb/css/_overlay.scss */
+.overlay .cke_documenttype_label.type_none {
+  background: darkred;
+}
+/* line 328, ../../../bower_components/mazweb/css/_overlay.scss */
+.overlay .cke_documenttype_label.type_init {
+  background: #777777;
+}
+/* line 332, ../../../bower_components/mazweb/css/_overlay.scss */
+.overlay .cke_documenttype_label span {
+  color: white;
+  font-weight: bold;
+}
+
+/* line 340, ../../../bower_components/mazweb/css/_overlay.scss */
+.overlay .gallery form {
+  height: 450px;
+}
+/* line 344, ../../../bower_components/mazweb/css/_overlay.scss */
+.overlay .gallery .upload-gallery {
+  position: absolute;
+  bottom: 60px;
+  right: 0;
+  left: 0;
+  border-top: 2px solid #ccc;
+  top: 450px;
+  background-color: #f0f0f0;
+}
+/* line 354, ../../../bower_components/mazweb/css/_overlay.scss */
+.overlay .gallery .drop-message h3 {
+  color: #fff;
+}
+/* line 358, ../../../bower_components/mazweb/css/_overlay.scss */
+.overlay .gallery .file {
+  height: 220px;
+  min-width: 220px;
+  position: relative;
+}
+/* line 364, ../../../bower_components/mazweb/css/_overlay.scss */
+.overlay .gallery .file:hover > .toolbar, .overlay .gallery .file.editing > .toolbar {
+  z-index: 2;
+  display: block;
+}
+/* line 370, ../../../bower_components/mazweb/css/_overlay.scss */
+.overlay .gallery .file.added, .overlay .gallery .file.uploading, .overlay .gallery .file.encoding {
+  width: 220px;
+}
+/* line 374, ../../../bower_components/mazweb/css/_overlay.scss */
+.overlay .gallery .view {
+  line-height: 200px;
+  margin: 0px auto;
+}
+/* line 378, ../../../bower_components/mazweb/css/_overlay.scss */
+.overlay .gallery .view img {
+  max-height: 200px;
+  border-radius: 1px;
+}
+/* line 382, ../../../bower_components/mazweb/css/_overlay.scss */
+.overlay .gallery .view .progress {
+  margin-top: -30px;
+}
+/* line 387, ../../../bower_components/mazweb/css/_overlay.scss */
+.overlay .gallery .edit {
+  position: absolute;
+  top: 10px;
+  left: 50%;
+  width: 220px;
+  margin-left: -110px;
+  color: #fff;
+}
+/* line 396, ../../../bower_components/mazweb/css/_overlay.scss */
+.overlay .gallery .editing [data-edit] {
+  display: none;
+}
+/* line 399, ../../../bower_components/mazweb/css/_overlay.scss */
+.overlay .gallery .viewing [data-view] {
+  display: none;
+}
+/* line 402, ../../../bower_components/mazweb/css/_overlay.scss */
+.overlay .gallery .encoding-message {
+  padding-left: 20px;
+}
+
+/* line 408, ../../../bower_components/mazweb/css/_overlay.scss */
+.overlay .gallery.files .upload-gallery .file {
+  line-height: 120%;
+  text-align: left;
+  width: 340px;
+  height: 180px;
+}
+/* line 415, ../../../bower_components/mazweb/css/_overlay.scss */
+.overlay .gallery.files .upload-gallery .file.saving .loader {
+  display: block !important;
+}
+/* line 419, ../../../bower_components/mazweb/css/_overlay.scss */
+.overlay .gallery.files .upload-gallery .file .preview img {
+  width: 120px;
+  height: 120px;
+  margin-right: 10px;
+}
+/* line 425, ../../../bower_components/mazweb/css/_overlay.scss */
+.overlay .gallery.files .upload-gallery .details-form {
+  margin-left: 10px;
+  overflow: hidden;
+}
+/* line 430, ../../../bower_components/mazweb/css/_overlay.scss */
+.overlay .gallery.files .upload-gallery .progress-uploading {
+  margin: 10px 0px 0px 0px;
+}
+
+/* line 436, ../../../bower_components/mazweb/css/_overlay.scss */
+.overlay .issue .icon-star {
+  cursor: pointer;
+}
+/* line 439, ../../../bower_components/mazweb/css/_overlay.scss */
+.overlay .issue .icon-star.selected {
+  color: #5F88CE;
+}
+
+/* line 445, ../../../bower_components/mazweb/css/_overlay.scss */
+.overlay .video .file .video-player {
+  position: relative;
+  margin-bottom: 10px;
+}
+/* line 450, ../../../bower_components/mazweb/css/_overlay.scss */
+.overlay .video .video-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #000;
+}
+/* line 455, ../../../bower_components/mazweb/css/_overlay.scss */
+.overlay .video .video-overlay h3 {
+  position: absolute;
+  left: 50%;
+  top: 45%;
+  width: 200px;
+  margin-left: -100px;
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+}
+/* line 467, ../../../bower_components/mazweb/css/_overlay.scss */
+.overlay .video .overlay-video-player {
+  margin-bottom: 10px;
+}
+
+/* line 473, ../../../bower_components/mazweb/css/_overlay.scss */
+.overlay .section-form .popover-title {
+  display: none;
+}
+/* line 475, ../../../bower_components/mazweb/css/_overlay.scss */
+.overlay .section-form .alert-error, .overlay .section-form .alert-success {
+  border: none;
+  padding: 15px;
+  color: #fff;
+}
+/* line 479, ../../../bower_components/mazweb/css/_overlay.scss */
+.overlay .section-form .alert-error h3, .overlay .section-form .alert-success h3 {
+  color: #fff;
+  margin: 0px 0px 8px;
+}
+/* line 484, ../../../bower_components/mazweb/css/_overlay.scss */
+.overlay .section-form .alert-error {
+  background-color: #d21b1b;
+}
+/* line 487, ../../../bower_components/mazweb/css/_overlay.scss */
+.overlay .section-form .alert-success {
+  background-color: #5ec11d;
+}
+/* line 491, ../../../bower_components/mazweb/css/_overlay.scss */
+.overlay .section-form .alert-info h3 {
+  color: inherit;
+}
+/* line 494, ../../../bower_components/mazweb/css/_overlay.scss */
+.overlay .section-form .overlay-menu .success {
+  color: #468847;
+}
+/* line 497, ../../../bower_components/mazweb/css/_overlay.scss */
+.overlay .section-form .overlay-menu .error {
+  color: #b94a48;
+}
+/* line 500, ../../../bower_components/mazweb/css/_overlay.scss */
+.overlay .section-form .well.error {
+  border: 3px solid #b94a48;
+}
+/* line 504, ../../../bower_components/mazweb/css/_overlay.scss */
+.overlay .section-form .form-group.error .readonly-value,
+.overlay .section-form .well.error > .readonly-value {
+  color: #b94a48;
+}
+/* line 509, ../../../bower_components/mazweb/css/_overlay.scss */
+.overlay .section-form .overlay-menu > li.pcsb > a, .overlay .section-form .overlay-menu > li.parent > a {
+  padding-bottom: 5px;
+}
+/* line 513, ../../../bower_components/mazweb/css/_overlay.scss */
+.overlay .section-form .overlay-menu > li.pcsb ul, .overlay .section-form .overlay-menu > li.parent ul {
+  list-style: none;
+  margin-left: 15px;
+  margin-bottom: 10px;
+}
+/* line 519, ../../../bower_components/mazweb/css/_overlay.scss */
+.overlay .section-form .overlay-menu > li.pcsb ul > li, .overlay .section-form .overlay-menu > li.parent ul > li {
+  margin: 5px 0px;
+}
+/* line 522, ../../../bower_components/mazweb/css/_overlay.scss */
+.overlay .section-form .overlay-menu > li.pcsb ul > li a, .overlay .section-form .overlay-menu > li.parent ul > li a {
+  color: #777777;
+  display: inline-block;
+  padding: 3px 10px;
+}
+/* line 528, ../../../bower_components/mazweb/css/_overlay.scss */
+.overlay .section-form .overlay-menu > li.pcsb ul > li.active a, .overlay .section-form .overlay-menu > li.parent ul > li.active a {
+  color: #333333;
+  background-color: #eee;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
+}
+
+@media (max-width: 980px) {
+  /* line 541, ../../../bower_components/mazweb/css/_overlay.scss */
+  .overlay-menu {
+    background: #f0f0f0;
+    padding: 5px 5px 0;
+    overflow: visible;
+  }
+  /* line 546, ../../../bower_components/mazweb/css/_overlay.scss */
+  .overlay-menu > li {
+    position: inherit;
+    background-color: #777777;
+    display: inline-block;
+    border-bottom: 0px none;
+    padding-left: 7px;
+    padding-right: 7px;
+    margin-right: 3px;
+  }
+  /* line 555, ../../../bower_components/mazweb/css/_overlay.scss */
+  .overlay-menu > li > a {
+    color: #dddddd;
+    font-size: 16px;
+    display: inline-block;
+    width: 100%;
+    padding: 7px 0;
+  }
+  /* line 564, ../../../bower_components/mazweb/css/_overlay.scss */
+  .overlay-menu > li:hover {
+    background-color: #cccccc;
+  }
+  /* line 569, ../../../bower_components/mazweb/css/_overlay.scss */
+  .overlay-menu > li.active {
+    position: inherit;
+  }
+  /* line 570, ../../../bower_components/mazweb/css/_overlay.scss */
+  .overlay-menu > li.active > a {
+    color: #333333;
+  }
+
+  /* line 579, ../../../bower_components/mazweb/css/_overlay.scss */
+  .overlay-scrollable {
+    top: 138px;
+  }
+
+  /* line 583, ../../../bower_components/mazweb/css/_overlay.scss */
+  .overlay-header {
+    border-bottom: 0px none;
+  }
+
+  /* line 587, ../../../bower_components/mazweb/css/_overlay.scss */
+  .overlay-mobile-navigation {
+    height: 75px;
+  }
+
+  /* line 591, ../../../bower_components/mazweb/css/_overlay.scss */
+  .overlay .section-form .well {
+    border: 0 none;
+    background-color: transparent;
+    padding: 0;
+    box-shadow: none;
+  }
+  /* line 600, ../../../bower_components/mazweb/css/_overlay.scss */
+  .overlay .section-form .overlay-menu > li.parent .caret {
+    border-bottom-color: #777777;
+    border-top-color: #777777;
+  }
+  /* line 605, ../../../bower_components/mazweb/css/_overlay.scss */
+  .overlay .section-form .overlay-menu > li.parent > ul {
+    display: none;
+    list-style: none;
+    margin-left: 15px;
+    margin-bottom: 10px;
+  }
+  /* line 611, ../../../bower_components/mazweb/css/_overlay.scss */
+  .overlay .section-form .overlay-menu > li.parent > ul.nav {
+    display: none !important;
+  }
+  /* line 615, ../../../bower_components/mazweb/css/_overlay.scss */
+  .overlay .section-form .overlay-menu > li.parent > ul.dropdown-menu {
+    display: none;
+  }
+  /* line 618, ../../../bower_components/mazweb/css/_overlay.scss */
+  .overlay .section-form .overlay-menu > li.parent > ul > li {
+    margin: 5px 0px;
+    display: inline-block;
+  }
+  /* line 622, ../../../bower_components/mazweb/css/_overlay.scss */
+  .overlay .section-form .overlay-menu > li.parent > ul > li a {
+    color: #777777;
+    display: inline-block;
+    padding: 3px 10px;
+    margin-left: 4px;
+    background-color: transparent;
+  }
+  /* line 630, ../../../bower_components/mazweb/css/_overlay.scss */
+  .overlay .section-form .overlay-menu > li.parent > ul > li.active a, .overlay .section-form .overlay-menu > li.parent > ul > li.dropdown > a {
+    color: #333333;
+    background: #cccccc none;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    border-radius: 10px;
+  }
+  /* line 636, ../../../bower_components/mazweb/css/_overlay.scss */
+  .overlay .section-form .overlay-menu > li.parent > ul > li.dropdown li a {
+    color: #333333;
+    background: white none;
+  }
+  /* line 641, ../../../bower_components/mazweb/css/_overlay.scss */
+  .overlay .section-form .overlay-menu > li.parent > ul > li.dropdown li.active a {
+    color: #333333;
+    background: #cccccc none;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    border-radius: 10px;
+  }
+  /* line 651, ../../../bower_components/mazweb/css/_overlay.scss */
+  .overlay .section-form .overlay-menu > li.parent.active > ul {
+    position: absolute;
+    left: 0;
+    top: 98px;
+    margin-left: 0;
+    display: block;
+  }
+  /* line 652, ../../../bower_components/mazweb/css/_overlay.scss */
+  .overlay .section-form .overlay-menu > li.parent.active > ul.nav {
+    display: table !important;
+  }
+}
+@media (max-width: 600px) {
+  /* line 669, ../../../bower_components/mazweb/css/_overlay.scss */
+  .overlay-scrollable {
+    top: 127px;
+  }
+
+  /* line 672, ../../../bower_components/mazweb/css/_overlay.scss */
+  .overlay-header {
+    height: 16px;
+  }
+  /* line 674, ../../../bower_components/mazweb/css/_overlay.scss */
+  .overlay-header .logo {
+    text-align: right;
+    top: 15px;
+  }
+  /* line 677, ../../../bower_components/mazweb/css/_overlay.scss */
+  .overlay-header .logo img {
+    width: 50%;
+    height: auto;
+  }
+  /* line 683, ../../../bower_components/mazweb/css/_overlay.scss */
+  .overlay-header h3 {
+    font-size: 14px;
+  }
+
+  /* line 691, ../../../bower_components/mazweb/css/_overlay.scss */
+  .overlay .section-form .overlay-menu > li.parent.active > ul {
+    top: 88px;
+  }
+}
+@media (max-height: 360px) {
+  /* line 700, ../../../bower_components/mazweb/css/_overlay.scss */
+  .hidden-super-small {
+    display: none !important;
+  }
+
+  /* line 704, ../../../bower_components/mazweb/css/_overlay.scss */
+  .overlay-scrollable {
+    top: 0;
+    bottom: 0;
+  }
+}
+/* line 711, ../../../bower_components/mazweb/css/_overlay.scss */
+.datepicker {
+  z-index: 1070 !important;
+}
+
+/**
+ * -- Site Theme
+ */
+/* line 14, ../../../bower_components/mazweb/css/_theme.scss */
+body.global-alert-open {
+  padding-top: 30px;
+}
+/* line 16, ../../../bower_components/mazweb/css/_theme.scss */
+body.global-alert-open .browser-warning {
+  display: block;
+}
+/* line 19, ../../../bower_components/mazweb/css/_theme.scss */
+body.global-alert-open .navbar-fixed-top {
+  top: 30px;
+}
+/* line 25, ../../../bower_components/mazweb/css/_theme.scss */
+body.controller-loading #module-container {
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+}
+/* line 33, ../../../bower_components/mazweb/css/_theme.scss */
+body.expand-full .container {
+  width: 100% !important;
+}
+/* line 36, ../../../bower_components/mazweb/css/_theme.scss */
+body.expand-full .container.col-fixed-left {
+  position: relative;
+  padding-left: 230px;
+}
+/* line 43, ../../../bower_components/mazweb/css/_theme.scss */
+body.expand-full .scrollable table {
+  max-width: none;
+}
+/* line 48, ../../../bower_components/mazweb/css/_theme.scss */
+body.expand-full .col-fixed {
+  position: absolute;
+  width: 215px;
+  left: 0;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+/* line 58, ../../../bower_components/mazweb/css/_theme.scss */
+body.expand-full #site-search {
+  max-width: 653px;
+}
+/* line 62, ../../../bower_components/mazweb/css/_theme.scss */
+body.expand-full #bd-container {
+  width: auto;
+  margin: 0;
+}
+/* line 67, ../../../bower_components/mazweb/css/_theme.scss */
+body.expand-full #ft {
+  display: none;
+}
+
+/* line 73, ../../../bower_components/mazweb/css/_theme.scss */
+#module-container {
+  -webkit-transition: opacity 0.5s ease-out;
+  transition: opacity 0.5s ease-out;
+  padding-bottom: 15px;
+  min-height: 400px;
+}
+
+/* line 79, ../../../bower_components/mazweb/css/_theme.scss */
+.browser-warning {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 30px;
+  line-height: 30px;
+  background-color: yellow;
+  z-index: 1000;
+  padding: 0 15px;
+}
+
+/* line 92, ../../../bower_components/mazweb/css/_theme.scss */
+.page-container {
+  background-color: #fcfcfc;
+  position: relative;
+  width: 100%;
+  min-height: 100%;
+  z-index: 1;
+}
+
+/* line 100, ../../../bower_components/mazweb/css/_theme.scss */
+#hd {
+  background-color: #f0f0f0;
+  padding: 15px 0;
+  border-bottom: 1px solid #d5d5d5;
+}
+@media (max-width: 480px) {
+  /* line 100, ../../../bower_components/mazweb/css/_theme.scss */
+  #hd {
+    padding: 10px 0;
+  }
+}
+/* line 109, ../../../bower_components/mazweb/css/_theme.scss */
+#hd .img-thumbnail, #hd .thumbnail {
+  margin-left: 12px;
+  opacity: 0.9;
+  filter: alpha(opacity=90);
+  padding: 0;
+}
+/* line 113, ../../../bower_components/mazweb/css/_theme.scss */
+#hd .img-thumbnail:hover, #hd .thumbnail:hover {
+  opacity: 1;
+  filter: alpha(opacity=100);
+}
+/* line 118, ../../../bower_components/mazweb/css/_theme.scss */
+#hd .site-actions {
+  position: relative;
+  float: right;
+  margin: 0 15px;
+  z-index: 1;
+}
+
+/* line 127, ../../../bower_components/mazweb/css/_theme.scss */
+#bd > .container:first-child {
+  margin-top: 20px;
+}
+
+/* line 132, ../../../bower_components/mazweb/css/_theme.scss */
+#ft {
+  font-size: 12px;
+  border-top: 1px solid #e5e5e5;
+  margin-top: 15px;
+  padding: 15px 0;
+}
+
+/**
+ * -- Site messages
+ */
+/* line 142, ../../../bower_components/mazweb/css/_theme.scss */
+#site-message-container {
+  opacity: 0.9;
+  filter: alpha(opacity=90);
+  -webkit-box-shadow: 1px 2px 5px 1px #cccccc;
+  box-shadow: 1px 2px 5px 1px #cccccc;
+  display: none;
+  position: fixed;
+  background-color: #fffbc9;
+  font-size: 14px;
+  z-index: 1060;
+}
+
+/* line 153, ../../../bower_components/mazweb/css/_theme.scss */
+body.sidebar-open #site-message-container {
+  margin-left: -137.5px;
+}
+
+@media (min-width: 1200px) {
+  /* line 160, ../../../bower_components/mazweb/css/_theme.scss */
+  body.sidebar #site-message-container {
+    margin-left: -137.5px;
+  }
+}
+/* line 166, ../../../bower_components/mazweb/css/_theme.scss */
+.content-share-menu {
+  max-width: 300px;
+}
+/* line 21, ../../../bower_components/sass-bootstrap-compass/sass/_mixins.scss */
+.content-share-menu:before, .content-share-menu:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+/* line 25, ../../../bower_components/sass-bootstrap-compass/sass/_mixins.scss */
+.content-share-menu:after {
+  clear: both;
+}
+/* line 169, ../../../bower_components/mazweb/css/_theme.scss */
+.content-share-menu > div {
+  padding: 10px 5px;
+}
+
+/* line 174, ../../../bower_components/mazweb/css/_theme.scss */
+.like-count {
+  min-width: 34px;
+  margin-left: 3px;
+  text-align: center;
+  vertical-align: middle;
+  padding-left: 0;
+  padding-right: 0;
+  color: #d21b1b !important;
+}
+
+/* line 184, ../../../bower_components/mazweb/css/_theme.scss */
+.likes {
+  color: #d21b1b !important;
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+/* line 191, ../../../bower_components/mazweb/css/_theme.scss */
+.ui_sortable tr {
+  cursor: move;
+}
+
+/**
+ * @deprecated Needs restyled and converted to a JS component
+ */
+/* line 201, ../../../bower_components/mazweb/css/_theme.scss */
+.messages .message,
+.messages label {
+  padding: 0 30px;
+  height: 30px;
+  line-height: 30px;
+  position: relative;
+  color: #151515;
+  overflow: hidden;
+  white-space: nowrap;
+  font-weight: bold;
+}
+/* line 212, ../../../bower_components/mazweb/css/_theme.scss */
+.messages label {
+  display: block;
+  margin: 0 !important;
+}
+/* line 217, ../../../bower_components/mazweb/css/_theme.scss */
+.messages .error {
+  color: #d21b1b;
+}
+/* line 221, ../../../bower_components/mazweb/css/_theme.scss */
+.messages .close {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  top: 7px;
+  right: 10px;
+}
+
+/* line 231, ../../../bower_components/mazweb/css/_theme.scss */
+.mobile-message {
+  width: 250px;
+}
+
+/* line 6, ../../../bower_components/mazweb/css/frontend.scss */
 .page-container {
   transition: margin 0.2s ease-in-out 0s;
 }
 
 /* Global Styles */
-/* line 11, ../../../bower_components/mazweb/css/frontend.scss */
+/* line 13, ../../../bower_components/mazweb/css/frontend.scss */
 html,
 body {
   height: 100%;
   width: 100%;
 }
 
-/* line 16, ../../../bower_components/mazweb/css/frontend.scss */
+/* line 18, ../../../bower_components/mazweb/css/frontend.scss */
 .vert-text {
   display: table-cell;
   vertical-align: middle;
   text-align: center;
 }
 
-/* line 22, ../../../bower_components/mazweb/css/frontend.scss */
+/* line 24, ../../../bower_components/mazweb/css/frontend.scss */
 .vert-text h1 {
   padding: 0;
   margin: 0;
@@ -9960,7 +10943,7 @@ body {
 }
 
 /* Side Menu */
-/* line 31, ../../../bower_components/mazweb/css/frontend.scss */
+/* line 33, ../../../bower_components/mazweb/css/frontend.scss */
 #sidebar-wrapper {
   margin-right: -250px;
   right: 0;
@@ -9977,7 +10960,7 @@ body {
   transition: all 0.4s ease 0s;
 }
 
-/* line 47, ../../../bower_components/mazweb/css/frontend.scss */
+/* line 49, ../../../bower_components/mazweb/css/frontend.scss */
 .sidebar-nav {
   position: absolute;
   top: 0;
@@ -9987,51 +10970,51 @@ body {
   padding: 0;
 }
 
-/* line 56, ../../../bower_components/mazweb/css/frontend.scss */
+/* line 58, ../../../bower_components/mazweb/css/frontend.scss */
 .sidebar-nav li {
   line-height: 40px;
   text-indent: 20px;
 }
 
-/* line 61, ../../../bower_components/mazweb/css/frontend.scss */
+/* line 63, ../../../bower_components/mazweb/css/frontend.scss */
 .sidebar-nav li a {
   color: #999999;
   display: block;
   text-decoration: none;
 }
 
-/* line 67, ../../../bower_components/mazweb/css/frontend.scss */
+/* line 69, ../../../bower_components/mazweb/css/frontend.scss */
 .sidebar-nav li a:hover {
   color: #fff;
   background: rgba(255, 255, 255, 0.2);
   text-decoration: none;
 }
 
-/* line 74, ../../../bower_components/mazweb/css/frontend.scss */
+/* line 76, ../../../bower_components/mazweb/css/frontend.scss */
 .sidebar-nav li a:active,
 .sidebar-nav li a:focus {
   text-decoration: none;
 }
 
-/* line 78, ../../../bower_components/mazweb/css/frontend.scss */
+/* line 80, ../../../bower_components/mazweb/css/frontend.scss */
 .sidebar-nav > .sidebar-brand {
   height: 55px;
   line-height: 55px;
   font-size: 18px;
 }
 
-/* line 84, ../../../bower_components/mazweb/css/frontend.scss */
+/* line 86, ../../../bower_components/mazweb/css/frontend.scss */
 .sidebar-nav > .sidebar-brand a {
   color: #999999;
 }
 
-/* line 88, ../../../bower_components/mazweb/css/frontend.scss */
+/* line 90, ../../../bower_components/mazweb/css/frontend.scss */
 .sidebar-nav > .sidebar-brand a:hover {
   color: #fff;
   background: none;
 }
 
-/* line 93, ../../../bower_components/mazweb/css/frontend.scss */
+/* line 95, ../../../bower_components/mazweb/css/frontend.scss */
 #menu-toggle {
   top: 0;
   right: 0;
@@ -10039,7 +11022,7 @@ body {
   z-index: 1;
 }
 
-/* line 101, ../../../bower_components/mazweb/css/frontend.scss */
+/* line 103, ../../../bower_components/mazweb/css/frontend.scss */
 #sidebar-wrapper.active {
   right: 250px;
   width: 250px;
@@ -10050,13 +11033,13 @@ body {
   transition: all 0.4s ease 0s;
 }
 
-/* line 111, ../../../bower_components/mazweb/css/frontend.scss */
+/* line 113, ../../../bower_components/mazweb/css/frontend.scss */
 .toggle {
   margin: 5px 5px 0 0;
 }
 
 /* Full Page Image Header Area */
-/* line 117, ../../../bower_components/mazweb/css/frontend.scss */
+/* line 119, ../../../bower_components/mazweb/css/frontend.scss */
 .header {
   display: table;
   height: 100%;
@@ -10070,25 +11053,25 @@ body {
 }
 
 /* Intro */
-/* line 131, ../../../bower_components/mazweb/css/frontend.scss */
+/* line 133, ../../../bower_components/mazweb/css/frontend.scss */
 .intro {
   padding: 50px 0;
 }
 
 /* Services */
-/* line 137, ../../../bower_components/mazweb/css/frontend.scss */
+/* line 139, ../../../bower_components/mazweb/css/frontend.scss */
 .services {
   background: #7fbbda;
   padding: 50px 0;
   color: #ffffff;
 }
 
-/* line 143, ../../../bower_components/mazweb/css/frontend.scss */
+/* line 145, ../../../bower_components/mazweb/css/frontend.scss */
 .service-item {
   margin-bottom: 15px;
 }
 
-/* line 147, ../../../bower_components/mazweb/css/frontend.scss */
+/* line 149, ../../../bower_components/mazweb/css/frontend.scss */
 i.service-icon {
   border: 3px solid #ffffff;
   border-radius: 50%;
@@ -10102,7 +11085,7 @@ i.service-icon {
 }
 
 /* Callout */
-/* line 161, ../../../bower_components/mazweb/css/frontend.scss */
+/* line 163, ../../../bower_components/mazweb/css/frontend.scss */
 .callout {
   color: #ffffff;
   display: table;
@@ -10116,80 +11099,80 @@ i.service-icon {
 }
 
 /* Portfolio */
-/* line 175, ../../../bower_components/mazweb/css/frontend.scss */
+/* line 177, ../../../bower_components/mazweb/css/frontend.scss */
 .portfolio {
   padding: 50px 0;
 }
 
-/* line 179, ../../../bower_components/mazweb/css/frontend.scss */
+/* line 181, ../../../bower_components/mazweb/css/frontend.scss */
 .portfolio-item {
   margin-bottom: 25px;
 }
 
-/* line 183, ../../../bower_components/mazweb/css/frontend.scss */
+/* line 185, ../../../bower_components/mazweb/css/frontend.scss */
 .img-portfolio {
   margin: 0 auto;
 }
 
 /* Call to Action */
-/* line 190, ../../../bower_components/mazweb/css/frontend.scss */
+/* line 192, ../../../bower_components/mazweb/css/frontend.scss */
 .call-to-action {
   color: #ffffff;
   background: #0a5175;
   padding: 50px 0;
 }
 
-/* line 196, ../../../bower_components/mazweb/css/frontend.scss */
+/* line 198, ../../../bower_components/mazweb/css/frontend.scss */
 .call-to-action .btn {
   margin: 10px;
 }
 
 /* Map */
-/* line 202, ../../../bower_components/mazweb/css/frontend.scss */
+/* line 204, ../../../bower_components/mazweb/css/frontend.scss */
 .map {
   height: 500px;
 }
 
 /* Footer */
-/* line 208, ../../../bower_components/mazweb/css/frontend.scss */
+/* line 210, ../../../bower_components/mazweb/css/frontend.scss */
 footer {
   padding: 100px 0;
 }
 
-/* line 212, ../../../bower_components/mazweb/css/frontend.scss */
+/* line 214, ../../../bower_components/mazweb/css/frontend.scss */
 .top-scroll {
   margin-top: 50px;
 }
 
-/* line 216, ../../../bower_components/mazweb/css/frontend.scss */
+/* line 218, ../../../bower_components/mazweb/css/frontend.scss */
 .top-scroll a {
   text-decoration: none;
   color: inherit;
 }
 
-/* line 221, ../../../bower_components/mazweb/css/frontend.scss */
+/* line 223, ../../../bower_components/mazweb/css/frontend.scss */
 i.scroll {
   color: #333333;
 }
 
-/* line 225, ../../../bower_components/mazweb/css/frontend.scss */
+/* line 227, ../../../bower_components/mazweb/css/frontend.scss */
 i.scroll:hover {
   color: #0a5175;
 }
 
 /* Responsive */
 @media (max-width: 768px) {
-  /* line 232, ../../../bower_components/mazweb/css/frontend.scss */
+  /* line 234, ../../../bower_components/mazweb/css/frontend.scss */
   .header {
     background: url(../images/bg.jpg) no-repeat center center scroll;
   }
 
-  /* line 236, ../../../bower_components/mazweb/css/frontend.scss */
+  /* line 238, ../../../bower_components/mazweb/css/frontend.scss */
   .callout {
     background: url(../images/callout.jpg) no-repeat center center scroll;
   }
 
-  /* line 240, ../../../bower_components/mazweb/css/frontend.scss */
+  /* line 242, ../../../bower_components/mazweb/css/frontend.scss */
   .map {
     height: 75%;
   }

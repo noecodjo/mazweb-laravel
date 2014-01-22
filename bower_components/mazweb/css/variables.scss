@@ -1,0 +1,169 @@
+/*+
+ * Color Swatches
+ */
+
+$white: #FFFFFF;
+
+$grey1: #333333;
+$grey1b: #555555;
+$grey2: #777777;
+$grey3: #CCCCCC;
+$grey4: #DDDDDD;
+$grey5: #E5E5E5;
+$grey6: #F0F0F0;
+$grey7: #F5F5F5;
+$grey8: #F9F9F9;
+
+$blue:          #006FCD;
+$blueBright:    #008aff;
+$blueMed:       #336699;
+$blueDark:      #003060;
+$blueLight:     #8cc4e7;
+$bluePale:      #c0dcf2;
+
+$orange:        #FF8A00;
+$orangeLighter: #FDF8F3;
+$orangeBright:  #FFAC1C;
+$orangeBrighter:#fdbf54;
+$orangeDark:    #E98900;
+$orangeDarker:  #C17100;
+$orangeDarkest: #965800;
+
+$green:         #4C7E35;
+$greenBright:   #5EC11D;
+
+$red:           #D21B1B;
+$redBright:     #FF1717;
+
+/**
+ * Variables
+ */
+$body-inner-width: 980px;
+$search-box-width: 350px;
+$tb-sidebar-width: 275px;
+$navbar-menu-width: 240px;
+$scrollbar-width: 16px;
+
+$base-margin: 1em;
+$base-container-spacing:      20px;
+
+/* Transitions */
+$default-transition-duration: 0.2s;
+$default-transition-function: ease-in-out;
+
+$default-box-shadow-blur:     3px;
+
+$font-size-base:              14px;
+$icon-font-path:              "/fonts/";
+
+//$font-size-h1:                floor($font-size-base * 2.5);
+//$font-size-h2:                floor($font-size-base * 2.10);
+//$font-size-h3:                ceil($font-size-base * 1.65);
+$font-size-h4:                ceil($font-size-base * 1.10);
+//$font-size-h5:                $font-size-base !default;
+//$font-size-h6:                ceil($font-size-base * 0.85);
+
+$body-bg:                     #fcfcfc;
+
+$navbar-border-radius:        0;
+
+$navbar-height:                       40px;
+$navbar-padding-horizontal:           15px;
+$navbar-inverse-link-active-color:    #fff;
+$navbar-inverse-link-active-bg:       #444;
+$navbar-inverse-link-active-bg:       #404040;
+
+$navbar-secondary-bg:                 #e5e5e5;
+$navbar-secondary-link-hover-color:   #333;
+$navbar-secondary-link-active-color:  #111;
+$navbar-secondary-link-active-bg:     #d3d3d3;
+$navbar-secondary-border:             #d5d5d5;
+
+$status-bar-height:                   34px;
+$status-bar-color:                    #a55f0b;
+$status-bar-bg:                       #f0d594;
+
+$link-color:                          #0072bc;
+
+$btn-subtle-color:                    #666666;
+$btn-subtle-bg:                       #e5e5e5;
+$btn-subtle-active-bg:                #e1e1e1;
+$btn-subtle-border:                   transparent;
+
+$grid-float-breakpoint:       920px; // This is where our nav current fits on one line
+$border-radius-base:          0;
+$border-radius-small:         0;
+$border-radius-large:         0;
+
+$nav-link-hover-bg:           #f0f0f0;
+$nav-link-padding:            5px 15px;
+$nav-pills-border-radius:     0;
+
+$input-border:                #ccc;
+$input-border-focus:          #66afe9;
+$input-border-radius:         0;
+$input-color-placeholder:     #777;
+
+$list-group-bg:               transparent;
+$list-group-border-radius:    0;
+
+$alert-success-bg:            #f8fcf1;
+$alert-info-bg:               #f6fafa;
+$alert-warning-bg:            #fffcee;
+$alert-danger-bg:             #f8f4f4;
+
+// Screen
+$screen-xl:                   1400px;
+$screen-sm-y:                 640px;
+
+// Page header
+$page-header-height:          90px;
+$page-header-border-color:    #e5e5e5;
+$page-header-bottom-margin:   20px;
+
+// Panels
+$panel-border-radius:         0;
+$panel-default-border:        $page-header-border-color;
+$panel-default-heading-bg:    transparent;
+
+// Alerts
+$alert-border-radius:         0;
+
+// Tables
+$table-border-color:          #eaeaea;
+
+// Popovers
+$popover-max-width:           400px;
+
+/**
+ * Site theme
+ */
+
+$affix-min-height:            ($screen-sm-y + 1);
+$affix-navbar-offset:         41px;
+
+/**
+ * Feeds
+ */
+$feed-border:                     $panel-default-border;
+$feed-inner-border:               lighten($feed-border, 3%);
+
+$feed-base-padding:               15px;
+$feed-content-padding:            20px;
+
+$feed-meta-font-color:            #777777;
+$feed-meta-link-color:            #444444;
+$feed-meta-link-highlight-color:  #222222;
+
+$feed-section-bg:                 #f9f9f9;
+
+$quickpost-background:            #f0f0f0;
+
+/**
+ * Parent colors (for project groups or other "parents"):
+ */
+$bg-parent: $orangeLighter;
+$text-parent: $orangeDarker;
+$border-parent: $orangeDarkest;
+
+

@@ -27,6 +27,9 @@
                     // Load the main app module to start the app
                     requirejs([app.dir + "/mazweb/js/homepage"]);
 
+                    application.rootPath = "{{ url('/') }}";
+
+                    console.log(application.rootPath);
                     // init application
                     application.init();
 

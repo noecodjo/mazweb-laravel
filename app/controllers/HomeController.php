@@ -22,4 +22,9 @@ class HomeController extends BaseController {
         $this->layout->content = View::make('home.index');
 	}
 
+    public function overlay()
+    {
+        $this->layout->content = View::make('home.overlay');
+    }
+
 }

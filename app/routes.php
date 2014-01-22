@@ -12,4 +12,6 @@
 */
 
 Route::get('/', 'HomeController@index');
+Route::get('overlay', 'ComponentController@index');
 Route::get('test', 'FixedPageController@index');
+Route::get('partials/overlay-modal', 'ComponentController@overlayModal');
